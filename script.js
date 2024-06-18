@@ -1,7 +1,6 @@
 CountDownTimer('06/30/2024 8:0 PM', 'countdown');//countdown to the countdown
 CountDownTimer('06/30/2024 11:0 PM', 'newcountdown');//countdown of the event
 
-fetchData();
 function CountDownTimer(dt, id)
 {
     var end = new Date(dt);
