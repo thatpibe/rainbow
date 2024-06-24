@@ -32,7 +32,7 @@ var dbCheckInterval = 10;
             var distance = end - now;
             if (distance < 0) {
                 clearInterval(timer);
-                document.getElementById("countdown").innerHTML = "TIME'S UP!";
+                document.getElementById("countdown").innerHTML = "Time's Up!";
 
                 return;
             }
@@ -46,7 +46,7 @@ var dbCheckInterval = 10;
             var d = new Date(endDate);
             d.setHours(d.getHours() - 3);
             if(d > now){
-                document.getElementById("countdown").innerHTML = `${hours}:${minutes}:${seconds}`;
+                document.getElementById("countdown").innerHTML = `${hours}:${minutes}:${seconds}`;//document.getElementById("countdown").innerHTML = `Waiting...`;
             }else{
                 document.getElementById("countdown").innerHTML = `${hours}:${minutes}:${seconds}`;
             }
