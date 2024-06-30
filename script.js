@@ -46,7 +46,7 @@ var dbCheckInterval = 10;
             var d = new Date(endDate);
             d.setHours(d.getHours() - 3);
             if(d > now){
-                document.getElementById("countdown").innerHTML = `${hours}:${minutes}:${seconds}`;//document.getElementById("countdown").innerHTML = `Waiting...`;
+                document.getElementById("countdown").innerHTML = ` `;
             }else{
                 document.getElementById("countdown").innerHTML = `${hours}:${minutes}:${seconds}`;
             }
